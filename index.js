@@ -22,6 +22,6 @@ app.use(notesRouter)
 // })
 
 //Listen to your port
-app.listen(8000, ()=>{
+app.listen(8000, (req, res)=>{
     console.log('App is listening on Port 8000')
 })
